@@ -1,6 +1,4 @@
 # KixO
-## A work in progress game made in pygame using python
-
 ### -----------------------------------------------------------------------------
 
 ## What is the game about?
