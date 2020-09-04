@@ -24,12 +24,13 @@ def __init__(self):
     options = font16.render("Options - Disabled", True, (100, 100, 100))
     quit = font16.render("Quit", True, (0, 0, 0))
     cn = font16.render("(C) 2020 Luxzi", True, (0, 0, 0))
+    curplay = font16.render("Currently Playing: Popliful by Luxzi", True, (0, 0, 0))
     
 
 
     #Load and Play Startup sound
-    pygame.mixer.music.load('assets/music/menutheme.mp3')
-    pygame.mixer.music.play(0)
+    #pygame.mixer.music.load('assets/music/menutheme.mp3')
+    #pygame.mixer.music.play(0)
 
     # Start Game Loop
     loop = True
@@ -50,7 +51,7 @@ def __init__(self):
         gameDisplay.blit(options, (10, 70))
         gameDisplay.blit(quit, (10, 90))
         gameDisplay.blit(cn, (515, 460))
-        
+        gameDisplay.blit(curplay, (5, 460))
 
         
             
