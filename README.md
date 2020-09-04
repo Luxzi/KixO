@@ -5,7 +5,9 @@
 
 ## What is the game about?
 
-KixO is about a litte cube trying to escape a dungeon.
+KixO is a game about a cube to trying to escape a dungeon, but it won't be so easy,<br/> 
+there are many obsticales and laborinths to go though before getting to the surface.<br/> 
+Can you get out?
 
-
-Screenshots coming soon!
+## Current Main Menu:
+![](https://i.imgur.com/ualaiM5.png)
